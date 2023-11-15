@@ -29,17 +29,10 @@ for row in sender_rows:
         data[title] = cell.value
     sender_data.append(data)
 
-# print(sender_data[0]["Sender Email"])
-# print(sender_data[0]["Email Password"])
-
-
-
 # Send emails
 for data in receiver_data:
     # Define email data
-    # email_sender = 'codingemail323@gmail.com'
     email_sender = sender_data[0]["Sender Email"]
-    # email_password = 'uyol ztou qgjv hzsi'
     email_password = sender_data[0]["Email Password"]
     email_receiver = data["Receiver Email"]
     subject = data["Email Subject"]
