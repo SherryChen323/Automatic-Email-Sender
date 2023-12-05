@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <p>{Hi|Hello},<br>
+            <br>
+            This is a {test|temp} email!<br>
+            {God|Jesus} loves you {so|very} much.<br>
+            <br>
+            Best Regards,<br>
+            <a href="https://socialmediaministries.com">Social Media Ministries</a>
+        </p>
+    </body>
+</html>
